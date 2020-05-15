@@ -1,0 +1,10 @@
+server:
+  port: 9301
+  servlet:
+    context-path: /
+spring:
+  elasticsearch:
+    rest:
+      uris: 192.168.7.243:9200
+      connection-timeout: 500ms
+      read-timeout: 10s
